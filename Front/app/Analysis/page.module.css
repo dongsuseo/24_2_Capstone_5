@@ -1,0 +1,6 @@
+.main{
+    background-color: black;
+    display: flex;
+    justify-content: center; /*text 수평정렬*/
+    align-items: center; /*text 수직정렬*/
+}

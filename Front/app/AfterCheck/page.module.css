@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    white-space: pre-line;
+    background-color: #000000;
+    color: #F5F5F7;
+    font-size: 3rem;
+    font-weight: 800;
+    justify-content: center; /*text 수평정렬*/
+    align-items: center; /*text 수직정렬*/
+    text-align: center;
+}
+.text{
+    margin-bottom: 3rem;
+}
