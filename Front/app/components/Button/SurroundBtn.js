@@ -4,7 +4,7 @@ import styles from "./Btn.module.css"
 
 const SurroundBtn = () =>{
     const router = useRouter();
-    const str = "평균 발걸음\n둘러보기"
+    const str = "둘러보기"
     const clickHandler = () =>{
         router.push("/Surround");
     }

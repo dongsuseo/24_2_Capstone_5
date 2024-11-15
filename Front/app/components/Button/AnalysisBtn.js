@@ -1,16 +1,18 @@
-'use client';
+"use client";
 import { useRouter } from "next/navigation";
-import styles from "./Btn.module.css"
+import styles from "./Btn.module.css";
 
-const AnalysisBtn = () =>{
-    const router = useRouter();
-    const str = "나의 발걸음\n분석"
-    const clickHandler = () =>{
-        router.push("/AfterCheck");
-    }
-    return(
-        <button onClick={clickHandler} className={styles.main}>{str}</button>
-    );
-}
+const AnalysisBtn = () => {
+  const router = useRouter();
+  const str = "바로 분석";
+  const clickHandler = () => {
+    router.push("/ConnectLoading");
+  };
+  return (
+    <button onClick={clickHandler} className={styles.main}>
+      {str}
+    </button>
+  );
+};
 
 export default AnalysisBtn;

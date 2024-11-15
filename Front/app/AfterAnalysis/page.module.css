@@ -1,0 +1,14 @@
+.main {
+  width: 100%;
+  display: flex; /* 자식 요소가 flexbox로 배치되도록 설정 */
+  flex-direction: column;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+.threeModel {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}

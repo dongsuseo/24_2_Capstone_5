@@ -1,18 +1,73 @@
-.main{
-    background-color: #F5F5F7;
-    display: flex;
-    width: 13rem;
-    height: 10rem;
-    border-radius: 10rem;
-    justify-content: center; /*text 수평정렬*/
-    align-items: center; /*text 수직정렬*/
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    white-space: pre-line;
+.main {
+  background-color: black;
+  display: flex;
+  width: 80%;
+  justify-content: center; /*text 수평정렬*/
+  align-items: center; /*text 수직정렬*/
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  white-space: pre-line;
+  /* border-radius: 8%; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.main:hover{
-    cursor: pointer;
-    transform: scale(1.07);
-    transition: .3s ease-in-out;
+.main:hover {
+  cursor: pointer;
+  background-color: #1d232b;
+  /* transform: scale(1.02);
+    transition: .3s ease-in-out; */
+}
+.walkingStart {
+  position: absolute;
+  top: 58%;
+  background-color: black;
+  color: white;
+  font-family: "toss";
+  display: flex;
+  border-radius: 8%;
+  width: 30vw;
+  height: 5rem;
+  justify-content: center; /*text 수평정렬*/
+  align-items: center; /*text 수직정렬*/
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: pre-line;
+  animation: fadeIn 2s ease-in-out; /* 애니메이션을 3초로 변경 */
+  animation-delay: 5s; /* 애니메이션 시작 전 1초 딜레이 */
+  animation-fill-mode: both;
+}
+.walkingStart:hover {
+  cursor: pointer;
+  background-color: #1d232b;
+}
+.standingStart {
+  position: absolute;
+  top: 58%;
+  background-color: black;
+  color: white;
+  font-family: "toss";
+  display: flex;
+  border-radius: 8%;
+  width: 30vw;
+  height: 5rem;
+  justify-content: center; /*text 수평정렬*/
+  align-items: center; /*text 수직정렬*/
+  font-size: 1.5rem;
+  font-weight: 600;
+  white-space: pre-line;
+  animation: fadeIn 2s ease-in-out; /* 애니메이션을 3초로 변경 */
+  animation-delay: 5s; /* 애니메이션 시작 전 1초 딜레이 */
+  animation-fill-mode: both;
+}
+.standingStart:hover {
+  cursor: pointer;
+  background-color: #1d232b;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
