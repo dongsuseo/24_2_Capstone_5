@@ -16,7 +16,7 @@ const WalkingLoading = () => {
     setTimeout(() => {
       setIsLoading(false);
       router.push("/StandingCheck");
-    }, 11000);
+    }, 61000);
     console.log(isLoading);
   }, []);
   return (

@@ -13,7 +13,7 @@ const ConnectLoading = () => {
     setTimeout(() => {
       setIsLoading(false);
       router.push("/WalkingCheck");
-    }, 5000);
+    }, 3000);
   }, []);
   return (
     <div className={styles.main}>
